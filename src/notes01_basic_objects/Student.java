@@ -28,6 +28,26 @@ public class Student {
 		 * refers to the Class's variable NOT the meathod's
 		 */
 	}
+	/*
+	 * Default Constructor
+	 * 
+	 * Yes you can have multiple constructors.
+	 * 
+	 * A Default Constructor has no parameters.  It sets the
+	 *   instance variables to a "default" value.  (whatever
+	 *   you want it to be)
+	 */
+	public Student() {
+		idNum = 0;
+		gpa = 0.0;
+		name = "Unknown";
+	}
+	
+	
+	
+	
+	
+	
 	
 	
 	//METHODS
@@ -66,7 +86,15 @@ public class Student {
 	
 	
 	
-	
+	/*Overriding the toString() method
+	 * 
+	 */
+	@Override
+	public String toString() {
+		return "Name:  " + name
+		   + "\nID#:   " + idNum
+		   + "\nGPA:   " + gpa + "\n";
+	}
 	
 	
 	
