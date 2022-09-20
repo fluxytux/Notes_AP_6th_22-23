@@ -32,8 +32,8 @@ public class Student_Runer {
 		
 		//Declaring an ArrayList
 		//MUST have the object type
-		ArrayList<Student> students = new ArrayList<Student>();
-		
+		ArrayList<Student> students;
+		students = new ArrayList<Student>();
 		
 		//adding items
 		students.add(s1);
