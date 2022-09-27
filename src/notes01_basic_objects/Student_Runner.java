@@ -5,7 +5,7 @@ public class Student_Runner {
 	
 	public static void main(String[] args) {
 		
-		int num = 5;
+		int num, b = 5;
 		
 		Student s1 = new Student(91234, "Sam", 2.5);
 		Student s2 = new Student(0251, "Arnold", -4.9);
